@@ -20,12 +20,15 @@ main {
     width: 90%;
     max-width: 1000px;
     margin: auto;
+}
+
+main .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 25px;
     margin-bottom: 2rem;
 }
 
-img {
+main .gallery a img {
     width: 100%;
 }
